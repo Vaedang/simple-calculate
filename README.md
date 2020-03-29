@@ -10,7 +10,7 @@ Hiển thị kết quả ra màn hình
 
 ## Chuẩn bị
 1 parent component chứa các chức năng xử lí (handleClick(), reset(), backspace()) và các component nhỏ (Display, Keyboard) như sau:
-![](./img/mo_hinh_may_tinh.svg)
+![](./img/mo_hinh_may_tinh.png)
 
 ## Thực hiện
 ### Tạo các component
@@ -104,8 +104,7 @@ class KeyBoard extends React.Component{
 export default KeyBoard
 ```
 > Hàm `handleClick(btnName)` đã dc được truyển qua bởi props
-Cuồi cùng chạy terminal `npm start` được kq sau:
-![](./img/ui.png)
+Cuồi cùng chạy terminal `npm start` xem thử
 
 ## Các chức năng
 ### Khi ấn nút: handleClick(btnName)
@@ -187,3 +186,6 @@ Ví dụ, dùng button của bootstrap
 import Button from 'react-bootstrap/Button'
 ```
 sau đó sử dụng `<Button/>` thay vì `<input type='button'/>`
+
+Hoàn thành 1 calculate lòe loẹt
+![](./img/complete.png)
